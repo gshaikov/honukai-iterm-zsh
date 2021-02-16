@@ -49,7 +49,6 @@ ${hg_info}\
 ${git_info} \
 %{$fg[white]%}[%*]
 %(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )%{$reset_color%}"
-#%{$terminfo[bold]$fg[red]%}→ %{$reset_color%}"
 
 if [[ "$USER" == "root" ]]; then
 PROMPT="%{$terminfo[bold]$fg[blue]%}#%{$reset_color%} \
@@ -62,5 +61,4 @@ ${hg_info}\
 ${git_info} \
 %{$fg[white]%}[%*]
 %(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )
-#%{$terminfo[bold]$fg[red]%}→ %{$reset_color%}"
 fi
